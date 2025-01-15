@@ -62,7 +62,7 @@ c) Reusable utility classes for consistent styling.
 
 1. HTML:
 
-Structured the layout of the application.
+a) Structured the layout of the application.
 
 2. CSS:
 
