@@ -6,20 +6,20 @@ This project is a clone of the Spotify web player, providing a seamless interfac
 
 **1. User Interface**
 
-Left Panel Navigation:
+**Left Panel Navigation:**
 
 a) Displays the logo, home button, search button, and a library section.
 
 b) Includes legal and accessibility links in the footer.
 
-Right Panel Content:
+**Right Panel Content:**
 
 a) Displays albums with cover images, titles, and descriptions.
 
 b) Includes a sticky playbar with playback controls at the bottom.
 
 
-2. Music Playback
+**2. Music Playback**
 
 a) Play, pause, next, and previous song functionalities.
 
@@ -30,7 +30,7 @@ c) Displays song information including title and duration.
 d) Volume control with mute/unmute functionality.
 
 
-3. Dynamic Content Loading
+**3. Dynamic Content Loading**
 
 a) Fetches songs and albums dynamically using the Fetch API.
 
@@ -38,13 +38,13 @@ b) Metadata of albums (e.g., title and description) is retrieved from JSON files
 
 c) Automatically populates songs in the playlist section when an album is selected.
 
-4. Responsive Design
+**4. Responsive Design**
 
 a) Fully responsive layout for desktop and mobile devices using CSS Media Queries.
 
 b) Hamburger menu for navigation on smaller screens.
 
-5. Custom Styling
+**5. Custom Styling**
 
 a) Dark-themed UI with custom scrollbars.
 
@@ -56,9 +56,9 @@ c) Reusable utility classes for consistent styling.
 
 
 
-Technologies Used
+**Technologies Used**
 
-Frontend
+**Frontend**
 
 1. HTML:
 
@@ -95,27 +95,27 @@ b) Local JSON files for album metadata.
 
 
 
-Code Features
+**Code Features**
 
-1.Utility Functions
+**1.Utility Functions**
 
 a) secondsToMinutesSeconds(seconds): Converts seconds into a MM:SS format.
 
 b) Dynamic Fetching
 
-2. Albums:
+**2. Albums:**
 
 a) Fetched from the songs folder dynamically.
 
 b) Metadata (e.g., title and description) fetched from info.json in each album folder.
 
-3. Songs:
+**3. Songs:**
 
 a) Fetched based on the selected album.
 
 b) Displays in a playlist section with dynamic event listeners for playback.
 
-4. Event Handling
+**4. Event Handling**
 
 a) Playback Controls: Play, pause, next, and previous buttons. Seek bar for controlling the current position in the song.
 
@@ -123,12 +123,14 @@ b) Volume Control: Range input for adjusting volume. Mute/unmute toggle.
 
 c) Responsive Navigation: Hamburger menu for opening and closing the left panel on smaller screens.
 
-5. Responsiveness: Designed using media queries to ensure adaptability across devices. Custom styling for the playbar and playlist on mobile screens.
+**5. Responsiveness:** 
+a) Designed using media queries to ensure adaptability across devices. 
+b) Custom styling for the playbar and playlist on mobile screens.
 
 
 
 
-How to Run the Project
+**How to Run the Project**
 
 1) Clone the repository to your local machine.
 
